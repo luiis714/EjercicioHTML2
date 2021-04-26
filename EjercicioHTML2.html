@@ -82,7 +82,7 @@
                         </div>
                         <div class="col-80">
                             <div></div>
-                            <div><input type="text" name="codigo_postal"/></div>
+                            <div><input type="number" name="codigo_postal" max="99999"/></div>
                             <div>
                                 <select required name="provincia" class="form-control">
                                     <option value="Álava/Araba">Álava/Araba</option>
@@ -153,8 +153,8 @@
                         <div>e-mail</div>
                     </div>
                     <div class="col-80">
-                        <div><input type="text" name="telefono"/></div>
-                        <div><input type="text" name="movil"/></div>
+                        <div><input type="tel" name="telefono" maxlength="9"/></div>
+                        <div><input type="tel" name="movil" maxlength="9"/></div>
                         <div><input type="email" name="email"/></div>
                     </div>
                 </div>
